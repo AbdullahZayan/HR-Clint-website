@@ -86,7 +86,7 @@ export default function Portfolio() {
 
   const handleViewCV = () => {
     // Open CV in new tab for viewing
-    window.open('public/cv/Sondos-FCV.pdf', '_blank')
+    window.open('/cv/Sondos-FCV.pdf', '_blank')
   }
 
   const scrollSkills = (direction) => {
