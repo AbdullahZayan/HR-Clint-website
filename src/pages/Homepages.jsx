@@ -76,7 +76,7 @@ export default function Portfolio() {
   const handleDownloadCV = () => {
     // Create a temporary link element to trigger download
     const link = document.createElement('a')
-    link.href = '/public/cv/Sondos-FCV.pdf'
+    link.href = '/cv/Sondos-FCV.pdf'
     link.download = 'Sondos-FCV.pdf'
     link.target = '_blank'
     document.body.appendChild(link)
